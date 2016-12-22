@@ -11,14 +11,14 @@ This is the directory R Shiny uses for its configuration.  It is located in /etc
 * Configured to mail to root on local machine  
 * Addition of ShinyApps directory to /etc/skel  
 ### Application Configuration  
-#### R Studio
+#### R Studio  
 * [Packages](https://shiny.med.umich.edu/packages/packages.html)    
-#### R Shiny Pro
+#### R Shiny Pro  
 * ssl certificate and key in /home/shiny/  
 * shiny-server.conf
 #### Custom HTML Templates  
 * /etc/shiny-server/templates  
 * /srv/shiny-server/index.html 
-#### Custom Publisher Directory
+#### Custom Publisher Directory  
 * /srv/shiny-server  
 * cron job created to call /etc/shiny-server/directory.sh to build every 4 hours
